@@ -1,0 +1,11 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "Thi is an ecommerce website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh Williams",
+  "license": "ISC"
+}
