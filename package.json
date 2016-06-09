@@ -4,8 +4,25 @@
   "description": "Thi is an ecommerce website",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Josh Williams",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "express": "^4.13.4",
+    "install": "^0.8.1",
+    "mongoose": "^4.4.20",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auptic/ecommerce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/auptic/ecommerce/issues"
+  },
+  "homepage": "https://github.com/auptic/ecommerce#readme"
 }
