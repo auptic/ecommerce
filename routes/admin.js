@@ -1,4 +1,4 @@
-var router = require('express-router');
+var router = require('express').Router();
 var Category = require('../models/category');
 
 
@@ -17,3 +17,5 @@ router.post('/add-category', function(req, res, next) {
     return res.redirect('/add-category');
   });
 });
+
+module.exports = router;
